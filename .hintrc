@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": "off",
+    "axe/structure": "off",
+    "disown-opener": "off",
+    "button-type": "off"
+  }
+}
